@@ -1,0 +1,100 @@
+.Thumbnail-Flex{
+    background-color: rgb(252, 252, 252);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 300px;
+}
+
+.Thumbnail-Flex1{
+    height: 170px;
+    position: relative;
+}
+
+.Thumbnail-Video{
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    margin: 0px 5px 0px 5px;
+}
+
+.Timestamp{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.658);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 3px 3px 3px 3px;
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.Thumbnail-Flex2{
+    display: flex;
+    flex-direction: row;
+    height: 105px;
+}
+
+.Thumbnail-Logo{
+    width: 55px;
+}
+
+.Thumbnail-Description{
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Channel-Logo{
+    border-radius: 90%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin: 10px 0px 0px 0px;
+}
+
+.Video-Title{
+    height: 65px;
+}
+
+.Channel-Name{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+}
+
+.Video-Views{
+    height: 20px;
+}
+
+.Title{
+    color: rgb(25, 25, 25);
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px;
+    line-height: 22px;
+}
+
+.Name{
+    color: rgb(95, 95, 95);
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+}
+
+.Views{
+    color: rgb(95, 95, 95);
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+}
+
+.Verified-Checkmark{
+    width: 12px;
+    height: 12px;
+    margin: 2px 0px 0px 5px;
+}

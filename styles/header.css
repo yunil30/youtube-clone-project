@@ -1,0 +1,176 @@
+header{
+    background-color: white;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    padding: 0px 20px 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header-left{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.Hamburger-Button{
+    border: 1px solid rgb(255, 255, 255);;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 90px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 25px;
+    height: 25px;
+    padding: 7px 7px 7px 7px;
+    margin-right: 20px;
+    margin-bottom: 2px;
+}
+
+.Hamburger-Button:hover{
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgb(190, 190, 190);;
+}
+
+.Hamburger-Button:active{
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.YouTube-Logo{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+.header-mid{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.Search-Bar{
+    background-color: white;
+    border: 1px solid rgb(175, 175, 175);
+    font-size: 17px;
+    font-weight: 500;
+    width: 500px;
+    height: 37px;
+    padding-left: 7px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;  
+    margin-left: 10px;
+    outline: none;
+}
+
+.Search-Bar:focus{
+    background-color: white;
+    border: 1px solid rgb(0, 4, 255);
+    box-shadow: inset 0px 0px 2px rgb(175, 175, 175);
+    outline: none;
+}
+
+.Search-Button{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid  rgb(175, 175, 175);
+    width: 25px;
+    height: 25px;
+    padding: 7px 20px 7px 20px;
+    border-left-style: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.Search-Button:hover{
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0px 0px 2px rgb(190, 190, 190);;
+}
+
+.Search-Button:active{
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0px 0px 2px rgb(175, 175, 175);
+}
+
+.Voice-Search{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    border-radius: 90px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 25px;
+    height: 25px;
+    padding: 7px 7px 7px 7px;
+    margin-left: 10px;
+}
+
+.Voice-Search:hover{
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgb(190, 190, 190);;
+}
+
+.Voice-Search:active{
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.header-right{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.Upload-Button{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+
+.YouTube-Apps{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.Notification-Icon{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.Profile-Picture{
+    border-radius: 90px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.Notification{
+    color: white;
+    font-size: 10px;
+    font-family: 500;
+    background-color: rgb(207, 24, 24);
+    border-radius: 90px;
+    padding: 3px 4px 3px 4px;
+    position: fixed;
+    top: -1px;
+    margin-left: 12px;
+}
